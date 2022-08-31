@@ -1,4 +1,5 @@
 ﻿using System;
+using PalindromeExerciseTests;
 
 namespace PalindromeExercise
 {
@@ -6,7 +7,9 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var tester = new WordSmith();
+
+            Console.WriteLine(tester.IsAPalindrome("racecar"));
         }
     }
 }
